@@ -2,7 +2,7 @@
 Author: Huramhex
 Auto connect campus network of Kunming university of science and technology
 Need Firefox browser
-Download geckodriver firefox kenel
+Download geckodriver firefox kernel
 https://github.com/mozilla/geckodriver/releases
 Put geckodriver.exe into .\Python39\Scripts
 '''
@@ -76,7 +76,7 @@ def handler():
 
 #主函数
 def main():
-    print (getCurrentTime(), u"昆明理工大学校园网自动登陆脚本正在运行")
+    print (getCurrentTime(), u"昆明理工大学校园网自动登陆运行中......")
     while True:
         while True:
             start_time = time.time()
